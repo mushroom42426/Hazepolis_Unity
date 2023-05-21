@@ -364,8 +364,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104467364}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.1773434, y: 9.74068, z: -7}
-  m_LocalScale: {x: 1.0711, y: 1.0886, z: 1}
+  m_LocalPosition: {x: -14.79, y: 8.8792, z: 0}
+  m_LocalScale: {x: 1.2173052, y: 1.237194, z: 1.1365}
   m_Children: []
   m_Father: {fileID: 585450196}
   m_RootOrder: 4
@@ -383,7 +383,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.6357133, y: -1.7588081}
+  m_Offset: {x: 0.9986975, y: -1.7588081}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -394,7 +394,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6124759, y: 25.132385}
+  m_Size: {x: 2.168532, y: 25.132385}
   m_EdgeRadius: 0
 --- !u!1 &120196623
 GameObject:
@@ -583,7 +583,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam1: {fileID: 375223827}
   cam2: {fileID: 662739186}
-  foundDan: 0
 --- !u!1 &183918108
 GameObject:
   m_ObjectHideFlags: 0
@@ -8852,18 +8851,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1290037387986109347, guid: 1f2575b5feeea7540a192c102e242a77, type: 3}
-      propertyPath: petObeject
-      value: 
-      objectReference: {fileID: 546549252}
-    - target: {fileID: 4277595389830641464, guid: 1f2575b5feeea7540a192c102e242a77, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 468d6029258a2ad49ade7f5b95e76907, type: 2}
-    - target: {fileID: 4277595389830641466, guid: 1f2575b5feeea7540a192c102e242a77, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2fa9775f243dc1341bb43ee662b5ef58, type: 2}
     - target: {fileID: 4277595389830641470, guid: 1f2575b5feeea7540a192c102e242a77, type: 3}
       propertyPath: m_Name
       value: Dan
@@ -10868,6 +10855,14 @@ PrefabInstance:
       propertyPath: pickable
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7912551796520278660, guid: ddad771c94f795f419bb67592cf044a8, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912551796520278660, guid: ddad771c94f795f419bb67592cf044a8, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: "(\u6309\u4E0BF\u9375\u8B93\u6234\u7D0D\u8DDF\u96A8\u6216\u5207\u63DB\u89D2\u8272)"
+      objectReference: {fileID: 0}
     - target: {fileID: 7912551796520278661, guid: ddad771c94f795f419bb67592cf044a8, type: 3}
       propertyPath: m_Name
       value: Dana
@@ -10879,6 +10874,10 @@ PrefabInstance:
     - target: {fileID: 7912551796520278662, guid: ddad771c94f795f419bb67592cf044a8, type: 3}
       propertyPath: m_Offset.x
       value: -16.072126
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912551796520278665, guid: ddad771c94f795f419bb67592cf044a8, type: 3}
+      propertyPath: timeScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7912551796520278666, guid: ddad771c94f795f419bb67592cf044a8, type: 3}
       propertyPath: m_RootOrder
