@@ -8851,6 +8851,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1290037387986109347, guid: 1f2575b5feeea7540a192c102e242a77, type: 3}
+      propertyPath: petObeject
+      value: 
+      objectReference: {fileID: 546549252}
     - target: {fileID: 4277595389830641470, guid: 1f2575b5feeea7540a192c102e242a77, type: 3}
       propertyPath: m_Name
       value: Dan
@@ -10861,7 +10865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7912551796520278660, guid: ddad771c94f795f419bb67592cf044a8, type: 3}
       propertyPath: dialogue.Array.data[8]
-      value: "(\u6309\u4E0BF\u9375\u8B93\u6234\u7D0D\u8DDF\u96A8\u6216\u5207\u63DB\u89D2\u8272)"
+      value: "(\u6309\u4E0BF\u9375\u5207\u63DB\u89D2\u8272)"
       objectReference: {fileID: 0}
     - target: {fileID: 7912551796520278661, guid: ddad771c94f795f419bb67592cf044a8, type: 3}
       propertyPath: m_Name

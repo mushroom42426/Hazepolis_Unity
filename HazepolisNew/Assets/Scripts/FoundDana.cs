@@ -48,7 +48,10 @@ public class FoundDana : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D other)
     {
-
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            completeTalk = true;
+        }
         if (other.CompareTag("Player") && completeTalk)
         {
             Eammon.instance.foundDan = true;
