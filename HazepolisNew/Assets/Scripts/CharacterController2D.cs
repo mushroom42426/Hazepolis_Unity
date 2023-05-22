@@ -9,7 +9,6 @@ public class CharacterController2D : MonoBehaviour
 
 	public GameObject[] MainPlayer;
 	private GameObject currentPlayer, previousPlayer;
-	//public bool foundDan = false;
 	public float threshold = 0.1f; // ºu½ü³t«×ìH­È
 
 	[SerializeField] private int iCharcaterCount = 0;
@@ -21,19 +20,11 @@ public class CharacterController2D : MonoBehaviour
 		ChangeCharacter();
 		MagicDetect();
 	}
-	void CheckMeet()
-    {
-		currentPlayer = MainPlayer[0];
-		//if (Eammon.instance.scenePassWord == "gate")
-		//{
-		//	foundDan = true;
-		//}
-	}
 	void ChangeCharacter()
 	{
 		if (Eammon.instance.foundDan == false)
 		{
-			CheckMeet();
+			currentPlayer = MainPlayer[0];
 		}
 		else
 		{
